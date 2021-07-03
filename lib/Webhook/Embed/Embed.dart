@@ -11,7 +11,7 @@ class Embed {
   final String? description;
   final List<discord.EmbedField>? fields;
   final discord.EmbedImage? image;
-  final discord.EmbedImage? thunmbnail;
+  final discord.EmbedImage? thumbnail;
   final discord.EmbedFooter? footer;
   final DateTime? timestamp;
 
@@ -23,7 +23,7 @@ class Embed {
     this.description,
     this.fields,
     this.image,
-    this.thunmbnail,
+    this.thumbnail,
     this.footer,
     this.timestamp,
   });
@@ -36,7 +36,7 @@ class Embed {
         'description': description,
         'fields': fields,
         'image': image,
-        'thunmbnail': thunmbnail,
+        'thumbnail': thumbnail,
         'footer': footer,
         'timestamp': timestamp?.toIso8601String(),
       };
