@@ -1,0 +1,15 @@
+# Ignore everything
+*
+!*/
+
+# Source files
+!/lib/**/*.dart
+!/bin/**/*.dart
+
+# Project files
+!/pubspec.yaml
+!/analysis_options.yaml
+
+# Repository files
+!/.gitignore
+!/LICENSE
